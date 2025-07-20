@@ -1,0 +1,16 @@
+def fact(n):
+    if n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(5))
+
+#recursive funtion to print all elements in a list
+
+fruits=["mango","litch","apple","banana"]
+def fru(fruits):
+    if len(fruits)==0:
+        return 
+    for i in fruits:
+        print(i)
+fru(fruits)
