@@ -1,0 +1,7 @@
+def m(l):
+    c=0
+    for i in l:
+        if i.lower() in "aeiou":
+            c+=1
+    print(c)
+m("aneeqa")
