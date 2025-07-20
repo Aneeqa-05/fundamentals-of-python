@@ -1,0 +1,16 @@
+n = int(input())
+m = int(input())
+
+if n < m:
+    g = n
+else:
+    g = m
+
+while True:
+    if n % g == 0 and m % g == 0:
+        hcf = g
+        break
+    else:
+        g -= 1
+
+print(hcf)
