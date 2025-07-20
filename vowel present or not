@@ -1,0 +1,5 @@
+text=input("entre :")
+if "a" in text or "e" in text or "i" in text or "o"  in text or "u" in text:
+    print(" vowel present")
+else:
+    print("vowel not present")
