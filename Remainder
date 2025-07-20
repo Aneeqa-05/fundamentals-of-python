@@ -1,0 +1,8 @@
+num=int(input("enter num : "))
+i=int(input("enter divisible num"))
+r=num%i
+print("reminder is" ,r)
+if r==0:
+    print("it is divisible")
+else:
+    print("not divisible")
