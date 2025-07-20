@@ -1,0 +1,14 @@
+n=int(input("enter number: "))
+def armstrong(n):
+    s=str(n)
+    power=len(s)
+    sum=0
+    for i in s:
+        digit=int(i)
+        sum+=digit**3
+    if sum==n:
+        print("armstrong")
+    else:
+        print("not armstrong")
+        
+armstrong(n)
